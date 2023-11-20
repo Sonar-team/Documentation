@@ -3,23 +3,26 @@
 layout: home
 
 hero:
-  name: "Documentation"
-  text: "Documentaion du projet"
-  tagline: My great project tagline
+  name: "Sonar"
+  text: "Documentation du projet Sonar"
+  tagline: Un outil d'analyse réseaux open source developpé avec tauri !
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Commencer avec Sonar
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Exemples de Code
       link: /api-examples
+    - theme: alt
+      text: Concepts de Rust
+      link: /rust_explain
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Sécurité Renforcée
+    details: Utilisation de Rust pour une performance et une sécurité optimales.
+  - title: Intégration Frontend-Backend
+    details: Explication de l'intégration Tauri et Vue.js pour une expérience utilisateur fluide.
+  - title: Pratiques DevOps
+    details: Intégration de CI/CD, tests automatisés et gestion agile pour un développement et une maintenance efficaces du projet.
 ---
 
