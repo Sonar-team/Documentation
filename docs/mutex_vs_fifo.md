@@ -6,17 +6,18 @@ Mutex, short for mutual exclusion, is a synchronization primitive used to preven
 A mutex allows only one thread to access a resource at any given time. When a thread wants to use the resource, it must first lock the mutex. If the mutex is already locked by another thread, the requesting thread is blocked until the mutex becomes available.
 *Challenges with Mutexes:**
 While mutexes prevent data races, they can lead to bottlenecks, as threads are forced to wait their turn to access the shared resource, potentially leading to performance issues.
+
+![mutex](mutexvsfifo/Untitled(2).png)
+
 ## The FIFO Queue Approach
 A FIFO (First-In, First-Out) queue is an alternative to mutexes for managing concurrency. Instead of controlling access to a resource, it manages the order in which threads process tasks.
-
-[!mutex](mutexvsfifo/Untitled(2).png)
 
 **How FIFO Queues Work:**
 Threads act as producers, placing tasks into the queue, and a consumer thread takes these tasks in the order they were added and processes them. This mechanism allows for continuous task processing without blocking producer threads.
 *Benefits of FIFO Queues:**
 This non-blocking approach can lead to better throughput and efficiency, especially in high-load systems where waiting for a mutex would be impractical.
 
-[!fifo](mutexvsfifo/Untitled(3).png)
+![fifo](mutexvsfifo/Untitled(3).png)
 
 
 ## Visualizing Mutexes vs. FIFO Queues
