@@ -1,4 +1,4 @@
-Mastering Concurrency in Rust: Mutexes vs. FIFO Queues
+# Mastering Concurrency in Rust: Mutexes vs. FIFO Queues
 Concurrency is a complex yet vital aspect of modern programming, especially when it comes to performance and efficiency. In Rust, a language known for its safety and concurrency features, we often deal with shared resources using mutexes and implement communication between threads through FIFO queues. This article will delve into the nuances of both, drawing from a recent detailed discussion on the topic.
 ## Understanding Mutexes in Rust
 Mutex, short for mutual exclusion, is a synchronization primitive used to prevent multiple threads from accessing a shared resource simultaneously. In Rust, `std::sync::Mutex` is a common way to achieve thread safety.
