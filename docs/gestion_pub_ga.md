@@ -1,6 +1,4 @@
-Bien sûr, voici une partie de votre rapport sur la gestion de la publication automatisée avec GitHub Actions :
 
----
 
 # Gestion de la Publication Automatisée avec GitHub Actions
 
@@ -79,6 +77,5 @@ jobs:
 
 Dans cet exemple, le workflow est déclenché à chaque poussée vers la branche principale et comprend des étapes de construction, de création de paquets et de déploiement.
 
----
-
-N'hésitez pas à personnaliser ce rapport en fonction de vos besoins spécifiques, en ajoutant des détails sur votre projet et en développant davantage sur les avantages et les étapes de configuration de GitHub Actions pour la publication automatisée.
+### Source 
+https://docs.github.com/fr/enterprise-server@3.6/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
