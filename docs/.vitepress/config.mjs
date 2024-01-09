@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/Documentation/',
+  site: 'https://Sonar-team.github.io',
+  base: '/Documentation',
   title: "Documentation",
   description: "Documentaion du projet",
   themeConfig: {
